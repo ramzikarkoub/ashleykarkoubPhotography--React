@@ -1,0 +1,70 @@
+@import "../../global.scss";
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-image: url("../../../public/assets/ashlowres.webp");
+  background-size: cover;
+  background-position: 20%;
+  overflow-y: scroll;
+
+  @include mobile {
+    justify-content: center;
+    align-items: center;
+  }
+  @include smartPhone {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formContainer {
+    border-radius: 15px;
+    border: 3px;
+    width: 30%;
+    height: auto;
+    box-shadow: 0px 0px 55px -8px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: none;
+    padding: 10px;
+    overflow-x: hidden;
+    // overflow-y: scroll;
+    @include mobile {
+      width: 80%;
+      top: 1%;
+      left: auto;
+    }
+    @include smartPhone {
+      width: 95%;
+      top: 1%;
+    }
+
+    p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0;
+      width: 100%;
+
+      @include mobile {
+        width: 70%;
+      }
+      span {
+        padding: 2px;
+        font-size: 14px;
+      }
+    }
+    hr {
+      width: 200px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
