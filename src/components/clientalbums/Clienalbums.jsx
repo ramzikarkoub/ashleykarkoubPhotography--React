@@ -17,6 +17,7 @@ export default function Clienalbums() {
                 <span>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://www.instagram.com/ashleylkphoto/"
                   >
                     <i class="fab fa-instagram"></i>

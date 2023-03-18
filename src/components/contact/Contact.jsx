@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./contact.scss";
 import "./ContactForm";
 import ContactForm from "./ContactForm";

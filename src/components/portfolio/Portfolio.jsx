@@ -11,7 +11,7 @@ import {
   newbornPortfolio,
 } from "../../data.js";
 import { useEffect } from "react";
-import { nanoid } from "nanoid";
+
 import uniqid from "uniqid";
 
 export default function Portfolio() {
@@ -58,7 +58,7 @@ export default function Portfolio() {
       <ul>
         {list.map((item) => (
           <PortfolioList
-            id={item.id}
+            id={list[item]}
             title={item.title}
             active={selected === item.id}
             setSelected={setSelected}

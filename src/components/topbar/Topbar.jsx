@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect } from "react";
 import EmailIcon from "@mui/icons-material/Email";
 import CameraAltIcon from "@mui/icons-material/CameraAlt";
 import PersonIcon from "@mui/icons-material/Person";

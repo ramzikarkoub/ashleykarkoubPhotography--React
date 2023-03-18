@@ -8,7 +8,6 @@ import Home from "./components/home/Home";
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
 import SocialMedia from "./components/socialMedia/SocialMedia";
-import { SocialIcon } from "react-social-icons";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
