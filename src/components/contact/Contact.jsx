@@ -8,12 +8,12 @@ export default function Contact() {
     <div className="contact" id="contact">
       <div className="formContainer">
         <h2>Let's talk</h2>
-        <hr />
+        {/* <hr />
         <p className="description">
           <span>Rockhill, SC</span>
           <span>(803)415-6431</span>
           <span>karkoub.ashley@gmail.com</span>
-        </p>
+        </p> */}
         <ContactForm />
       </div>
     </div>

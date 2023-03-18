@@ -4,21 +4,24 @@
   display: flex;
   flex-direction: row;
   position: relative;
+  background-image: url("../../../public/assets/arr.jpg");
+  background-size: cover;
+  background-position: 20%;
   @include mobile {
     justify-content: center;
     align-items: center;
   }
 
-  img {
-    width: 100%;
-    // height: 100%;
-    object-fit: cover;
-  }
+  // img {
+  //   width: 100%;
+  //   // height: 100%;
+  //   object-fit: cover;
+  // }
 
   .booking {
     top: 70px;
-    width: 60%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
@@ -27,7 +30,7 @@
 
     @include mobile {
       width: 90%;
-      height: auto;
+      height: 70%;
       top: 10%;
       left: auto;
     }

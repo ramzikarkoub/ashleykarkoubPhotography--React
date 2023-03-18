@@ -13,14 +13,13 @@
   }
   .container {
     display: flex;
-
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 60%;
     height: 85%;
-
     padding: 20px;
+    overflow: none;
 
     @include mobile {
       flex-direction: column;
