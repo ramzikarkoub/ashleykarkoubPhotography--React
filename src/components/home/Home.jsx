@@ -12,9 +12,9 @@ const images = [
 export default function home() {
   return (
     <div className="intro" id="home">
-      <div className="booking">
-        <Carousel images={images} />
-      </div>
+      {/* <div className="booking"> */}
+      <Carousel images={images} />
+      {/* </div> */}
     </div>
   );
 }
