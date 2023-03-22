@@ -56,8 +56,8 @@ export default function ContactForm(props) {
         </Form.Control>
       </Form.Group>
 
-      <Row className="mb-3">
-        <Form.Group as={Col} md="6" controlId="validationCustom06">
+      <Row className="col-md-12">
+        <Form.Group as={Col} md="5" controlId="validationCustom06">
           <Form.Control
             type="text"
             placeholder="City"
@@ -73,7 +73,7 @@ export default function ContactForm(props) {
             className="mb-3"
           />
         </Form.Group>
-        <Form.Group as={Col} md="3" controlId="validationCustom08">
+        <Form.Group as={Col} md="4" controlId="validationCustom08">
           <Form.Control
             type="text"
             placeholder="Zip"
@@ -82,7 +82,10 @@ export default function ContactForm(props) {
           />
         </Form.Group>
       </Row>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+      <Form.Group
+        className="col-md-12"
+        controlId="exampleForm.ControlTextarea1"
+      >
         <Form.Control
           as="textarea"
           rows={2}
@@ -90,7 +93,7 @@ export default function ContactForm(props) {
         />
       </Form.Group>
       <Form.Group className="mb-3"></Form.Group>
-      <div class="col-md-12 text-center mb-2">
+      <div className="col-md-12 text-center mb-2">
         <Button type="submit" variant="dark">
           Submit form
         </Button>

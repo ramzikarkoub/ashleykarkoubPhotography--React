@@ -1,123 +1,189 @@
-@import "../../global.scss";
+// @import "../../global.scss";
 
-.intro {
-  display: flex;
-  flex-direction: row;
+// .intro {
+//   display: flex;
+//   flex-direction: row;
+//   position: relative;
+//   // background-image: url("../../../public/assets/arr.jpg");
+//   background-size: cover;
+//   background-position: 20%;
+//   @include mobile {
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+//   // img {
+//   //   width: 100%;
+//   //   // height: 100%;
+//   //   object-fit: cover;
+//   // }
+
+//   .booking {
+//     top: 70px;
+//     width: 50%;
+//     height: 50%;
+//     display: flex;
+//     align-items: flex-start;
+//     justify-content: space-around;
+//     position: absolute;
+//     left: 60px;
+
+//     @include mobile {
+//       width: 90%;
+//       height: 70%;
+//       top: 10%;
+//       left: auto;
+//     }
+//     @include smartPhone {
+//       width: 90%;
+//       height: 70%;
+//       top: 10%;
+//       left: auto;
+//     }
+
+//     .newCustomer {
+//       box-shadow: 0px 0px 55px -8px rgb(49, 7, 59);
+//       background-color: white;
+//       border-radius: 10px;
+//       opacity: 0.5;
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+//       justify-content: center;
+//       top: 5px;
+//       left: 0;
+
+//       @include smartPhone {
+//         width: 90%;
+//         height: auto;
+//       }
+
+//       button {
+//         width: 200px;
+//         height: 60px;
+//         font-size: 30px;
+//         border-radius: 20px;
+//         border: none;
+//         box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, 0.618);
+//         background-color: red;
+//         cursor: pointer;
+//         padding-left: 10px;
+//         padding-right: 10px;
+
+//         &:hover {
+//           background-color: #15023a;
+//           color: yellow;
+//         }
+
+//         @include smartPhone {
+//           width: auto;
+//         }
+//       }
+
+//       h1 {
+//         font-size: 60px;
+//         width: 100%;
+//         height: 100%;
+//         margin-top: 20px;
+//         margin-bottom: 20px;
+//         margin-left: 20px;
+//         margin-right: 20px;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-around;
+//         align-items: center;
+//         @include mobile {
+//           font-size: 50px;
+//         }
+//         @include smartPhone {
+//           padding-left: 10px;
+//           padding-right: 10px;
+//           padding-top: 10px;
+//           padding-bottom: 10px;
+//           font-size: 30px;
+//         }
+//         p {
+//           text-align: center;
+//         }
+
+//         span {
+//           color: red;
+//           font-size: 60px;
+
+//           @include mobile {
+//             font-size: 50px;
+//           }
+//           @include smartPhone {
+//             font-size: 40px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+.carousel-container {
   position: relative;
-  background-image: url("../../../public/assets/arr.jpg");
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(227, 229, 237);
+  box-shadow: 0px 0px 55px -8px;
+
+  //   padding-top: 5%;
+}
+
+.carousel-image {
+  position: absolute;
+  //   top: 0;
+  //   left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: 20%;
-  @include mobile {
-    justify-content: center;
-    align-items: center;
+  border: 50px;
+  border-color: black;
+  opacity: 80%;
+  //   margin-top: 50px;
+  //   margin-bottom: 50px;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 90%;
+  bottom: 10px;
+  p {
+    color: rgb(255, 255, 255);
   }
+}
+.carousel-prev {
+  left: 0;
+}
 
-  // img {
-  //   width: 100%;
-  //   // height: 100%;
-  //   object-fit: cover;
-  // }
-
-  .booking {
-    top: 70px;
-    width: 50%;
-    height: 50%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    position: absolute;
-    left: 60px;
-
-    @include mobile {
-      width: 90%;
-      height: 70%;
-      top: 10%;
-      left: auto;
-    }
-    @include smartPhone {
-      width: 90%;
-      height: 70%;
-      top: 10%;
-      left: auto;
-    }
-
-    .newCustomer {
-      box-shadow: 0px 0px 55px -8px rgb(49, 7, 59);
-      background-color: white;
-      border-radius: 10px;
-      opacity: 0.5;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      top: 5px;
-      left: 0;
-
-      @include smartPhone {
-        width: 90%;
-        height: auto;
-      }
-
-      button {
-        width: 200px;
-        height: 60px;
-        font-size: 30px;
-        border-radius: 20px;
-        border: none;
-        box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, 0.618);
-        background-color: red;
-        cursor: pointer;
-        padding-left: 10px;
-        padding-right: 10px;
-
-        &:hover {
-          background-color: #15023a;
-          color: yellow;
-        }
-
-        @include smartPhone {
-          width: auto;
-        }
-      }
-
-      h1 {
-        font-size: 60px;
-        width: 100%;
-        height: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        @include mobile {
-          font-size: 50px;
-        }
-        @include smartPhone {
-          padding-left: 10px;
-          padding-right: 10px;
-          padding-top: 10px;
-          padding-bottom: 10px;
-          font-size: 30px;
-        }
-        p {
-          text-align: center;
-        }
-
-        span {
-          color: red;
-          font-size: 60px;
-
-          @include mobile {
-            font-size: 50px;
-          }
-          @include smartPhone {
-            font-size: 40px;
-          }
-        }
-      }
-    }
-  }
+.carousel-next {
+  right: 0;
 }
