@@ -16,7 +16,7 @@ export default function ContactForm(props) {
     <Form onSubmit={handleSubmit} className="mt-1">
       <Form.Group
         as={Col}
-        md="12"
+        md="13"
         controlId="validationCustom02"
         className="mb-3"
       >
@@ -25,7 +25,7 @@ export default function ContactForm(props) {
 
       <Form.Group
         as={Col}
-        md="12"
+        md="13"
         controlId="validationCustom03"
         className="mb-3"
       >
@@ -33,7 +33,7 @@ export default function ContactForm(props) {
       </Form.Group>
       <Form.Group
         as={Col}
-        md="12"
+        md="13"
         controlId="validationCustom04"
         className="mb-3"
       >
@@ -41,7 +41,7 @@ export default function ContactForm(props) {
       </Form.Group>
       <Form.Group
         as={Col}
-        md="12"
+        md="13"
         controlId="validationCustom05"
         className="mb-3"
       >
@@ -56,8 +56,8 @@ export default function ContactForm(props) {
         </Form.Control>
       </Form.Group>
 
-      <Row className="col-md-12">
-        <Form.Group as={Col} md="5" controlId="validationCustom06">
+      <Row className="col-md-13">
+        <Form.Group as={Col} md="4" controlId="validationCustom06">
           <Form.Control
             type="text"
             placeholder="City"
@@ -65,7 +65,7 @@ export default function ContactForm(props) {
             className="mb-3"
           />
         </Form.Group>
-        <Form.Group as={Col} md="3" controlId="validationCustom07">
+        <Form.Group as={Col} md="4" controlId="validationCustom07">
           <Form.Control
             type="text"
             placeholder="State"
@@ -83,7 +83,7 @@ export default function ContactForm(props) {
         </Form.Group>
       </Row>
       <Form.Group
-        className="col-md-12"
+        className="col-md-13"
         controlId="exampleForm.ControlTextarea1"
       >
         <Form.Control

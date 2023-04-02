@@ -7,24 +7,16 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
-  background-color: rgb(227, 229, 237);
-  box-shadow: 0px 0px 55px -8px;
-  background: linear-gradient(to bottom, transparent 0%, #15023a 100%);
+  border-radius: 0%;
 }
 
 .carousel-image {
   position: absolute;
-  //   top: 0;
-  //   left: 0;
   width: 100%;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 50px;
-  border-color: black;
-  opacity: 80%;
   opacity: 1;
   transition: all 0.5s ease;
 }
@@ -49,19 +41,28 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 90%;
-  bottom: 10px;
-  padding: 30px;
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  padding: 60px;
+  background: linear-gradient(to bottom, transparent 50%, #15023a 150%);
+
+  h3 {
+    color: white;
+    text-shadow: 1px 10px 15px #15023a;
+  }
 
   p {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 0 15px 0 15px;
+    text-shadow: 5px 5px 20px #15023a;
   }
 }
-@media screen and (max-width: 350px) {
-  .description p {
-    padding: 0 15px 30px 15px;
+
+@media screen and (max-width: 450px) {
+  .description {
+    top: 0;
   }
 }
 .carousel-prev {
@@ -79,4 +80,9 @@
 }
 .carousel-next {
   right: 0;
+}
+
+.btn-warning:hover {
+  background-color: #15023a;
+  color: white;
 }

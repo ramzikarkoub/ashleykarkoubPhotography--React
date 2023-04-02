@@ -14,10 +14,10 @@ export default function Menu(props) {
             <a href="#about">About</a>
           </li>
           <li onClick={() => props.setMenuOpen(false)}>
-            <a href="#clientalbums">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li onClick={() => props.setMenuOpen(false)}>
-            <a href="#portfolio">Clients login</a>
+            <a href="#clientalbums">Clients login</a>
           </li>
           <li onClick={() => props.setMenuOpen(false)}>
             <a href="#contact">Contact</a>

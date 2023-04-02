@@ -6,9 +6,7 @@ import Carousel from "./Carousel";
 export default function home() {
   return (
     <div className="intro" id="home">
-      {/* <div className="booking"> */}
       <Carousel />
-      {/* </div> */}
     </div>
   );
 }
