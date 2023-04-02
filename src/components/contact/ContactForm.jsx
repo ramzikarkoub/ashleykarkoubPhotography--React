@@ -44,6 +44,7 @@ export default function ContactForm(props) {
         md="13"
         controlId="validationCustom05"
         className="mb-3"
+        placeholder="mm/dd/yyy"
       >
         <Form.Control required as="select" type="select">
           <option value="">Select your event</option>
