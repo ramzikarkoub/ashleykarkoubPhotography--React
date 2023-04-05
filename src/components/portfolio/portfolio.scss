@@ -29,7 +29,7 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    overflow: scroll;
+    overflow: hidden;
 
     @include mobile {
       width: 100%;
@@ -37,11 +37,12 @@
     }
     @include smartPhone {
       width: 100%;
-      align-content: inherit;
+      align-content: flex-start;
+      overflow: scroll;
     }
 
     .item {
-      width: 220px;
+      width: 200px;
       height: 150px;
       border-radius: 20px;
       border: 1px solid rgb(240, 239, 239);

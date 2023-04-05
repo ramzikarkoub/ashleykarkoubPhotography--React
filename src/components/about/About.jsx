@@ -19,24 +19,16 @@ export default function About() {
             delectus, hic et qui quos accusantium, voluptatum suscipit it
             repudiandae harum aspernatur, nobis quo iusto vel expedita fugiat
             sauscipit repudiandae harum aspernatur, nobis quo inventore! Lorem
-            ipsum dolor sit amenobis quo iusto vel expedita fugiat saepe facere
-            nulla inventore! Lorem sauscipit repudiandae harum aspernatur, nobis
+            ipsum dolor sit amenobia fugiat saepe facere nulla inventore! Lorem
+            sauscipit repudiandae harum aspernatur, nobis quo iusto vel expedita
+            fugiat saepe facere nulla inventore! Lorem ipsum dolor sit amenobis
             quo iusto vel expedita fugiat saepe facere nulla inventore! Lorem
-            ipsum dolor sit amenobis quo iusto vel expedita fugiat saepe facere
-            nulla inventore! Lorem sauscipit repudiandae harum aspernatur, nobis
-            quo iusto vel expedita fugiat saepe facere nulla inventore! Lorem
-            ipsum dolor sit amenobis quo iusto vel expedita fugiat saepe facere
-            nulla inventore! Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Rerum delectus, or sit amet consectetur adipisicing elit.
-            Rerum delectus,.or sit amet consectetur adipisicing elit. Rerum
-            delectus, hic et qui quos accusantium, voluptatum suscipit repud
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            delectus, hic et sauscipit repudiandae harum aspernatur, nobis quo
-            iusto vel expedita fugiat saepe facere nulla inventore! Lorem ipsum
-            dolor sit amenobis quo iusto vel expedita fugiat saepe facere nulla
-            inventore! Lorem qui quos accusantium, voluptatum suscipit
-            repudiandae harum aspernatur, nobis quo iusto vel expedita fugiat
-            saepe facere nulla inventore!
+            ipsum dolor sit amet cRerum delectus, hic et sauscipit repudiandae
+            harum aspernatur, nobis quo iusto vel expedita fugiat saepe facere
+            nulla inventore! Lorem ipsum dolor sit amenobis quo iusto vel
+            expedita fugiat saepe facere nulla inventore! Lorem qui quos
+            accusantium, voluptatum suscipit repudiandae harum aspernatur, nobis
+            quo iusto vel expedita fugiat saepe facere nulla inventore!
           </p>
         </div>
       </div>
